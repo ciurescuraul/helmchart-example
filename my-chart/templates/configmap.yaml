@@ -1,7 +1,8 @@
-# apiVersion: v1
+apiVersion: {{ .Values.apiVersion }}
+kubernetesVersion: {{ .Values.kubernetesVersion }}
 kind: ConfigMap
 metadata:
   name: my-configmap
 data:
-  myvalue: "Hello World"
+  myValue: "Hello World"
   drink: {{ .Values.favoriteDrink }}
