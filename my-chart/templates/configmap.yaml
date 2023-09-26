@@ -1,4 +1,4 @@
-{{/*apiVersion: {{ .Values.apiVersion }}*/}}
+apiVersion: {{ .Values.apiVersion }}
 kubernetesVersion: {{ .Values.kubernetesVersion }}
 kind: ConfigMap
 metadata:
