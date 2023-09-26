@@ -1,3 +1,3 @@
 favoriteDrink: coffee
-apiVersion: v1.0.0-apiVersion
-kubernetesVersion: v2.0.0-kubernetesVersion
+#apiVersion: v1.0.0-apiVersion
+#kubernetesVersion: v2.0.0-kubernetesVersion
