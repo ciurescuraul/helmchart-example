@@ -3,5 +3,5 @@ kind: ConfigMap
 metadata:
   name: my-configmap
 data:
-  apiVersion: "{{ .Values.apiVersion }}"
-  kubernetesVersion: "{{ .Values.kubernetesVersion }}"
+  apiVersion: "{{ .Capabilities.APIVersions }}"
+  kubernetesVersion: "{{ .Capabilities.KubeVersion }}"
