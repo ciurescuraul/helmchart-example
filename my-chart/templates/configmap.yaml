@@ -3,7 +3,5 @@ kind: ConfigMap
 metadata:
   name: my-configmap
 data:
-  myValue: "Hello World"
-  drink: "{{ .Values.favoriteDrink }}"
   apiVersion: "{{ .Values.apiVersion }}"
   kubernetesVersion: "{{ .Values.kubernetesVersion }}"
